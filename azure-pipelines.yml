@@ -7,8 +7,8 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
-
+  name: 'default'
+  vmImage: 'agentvm'
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
